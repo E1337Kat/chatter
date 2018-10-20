@@ -1,0 +1,27 @@
+{
+  "name": "chatter",
+  "version": "1.0.0",
+  "description": "chat app",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "brunch": "^2.10.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e1337kat/chatter.git"
+  },
+  "author": "Ellie Peterson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e1337kat/chatter/issues"
+  },
+  "homepage": "https://github.com/e1337kat/chatter#readme"
+}

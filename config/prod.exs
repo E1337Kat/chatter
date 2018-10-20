@@ -1,6 +1,6 @@
 use Mix.Config
 
-config :chatter, Chatter.Endpoint,
+config :chatter, ChatterWeb.Endpoint,
   http: [port: {:system, "PORT"}],
   url: [scheme: "https", host: "dry-dawn-11975.herokuapp.com", port: 443],
   force_ssl: [rewrite_on: [:x_forwarded_proto]],
